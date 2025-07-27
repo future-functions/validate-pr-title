@@ -1,0 +1,9 @@
+name: "Validate PR Title"
+description: "Checks if a PR title follows conventional commit format"
+inputs:
+  pr-title:
+    description: "Pull Request title to validate"
+    required: true
+runs:
+  using: "node20"
+  main: "index.js"
