@@ -1,0 +1,5 @@
+'feature':
+  - 'src/**/*'
+'documentation':
+  - 'docs/**/*'
+  - 'README.md'
